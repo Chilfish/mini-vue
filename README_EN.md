@@ -13,7 +13,6 @@ Implement the simplest vue3 model for in-depth study of vue3 source code
 
 You can join the group to discuss the vue3 source code
 
-
 ![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cbe1b6e9c67944828c3e653fd7919dc0~tplv-k3u1fbpfcp-watermark.image)
 
 > with WeChat
@@ -49,7 +48,7 @@ The code naming will remain consistent with the source code, so that you can fin
 - [x] support getCurrentInstance
 - [x] support provide/inject
 - [x] support basic slots
-- [x] support text type 
+- [x] support text type
 
 ### roadmap
 

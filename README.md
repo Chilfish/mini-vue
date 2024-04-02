@@ -39,7 +39,6 @@
 - [x] 支持 $el api
 - [x] 支持 watchEffect
 
-
 #### reactivity
 
 目标是用自己的 reactivity 支持现有的 demo 运行
@@ -66,7 +65,7 @@
 - [x] 解析 text
 
 ### runtime-dom
-- [x] 支持 custom renderer 
+- [x] 支持 custom renderer
 
 ### runtime-test
 - [x] 支持测试 runtime-core 的逻辑
@@ -93,7 +92,6 @@ pnpm build
 > 可加 vx：cuixr1314  获取所有脑图(备注：github mini-vue 领取脑图)
 #### 关键函数调用图
 
-
 ![关键函数调用图2](https://images-1252602850.cos.ap-beijing.myqcloud.com/20220927170658.png)
 
 > 可以基于函数名快速搜索到源码内容
@@ -108,10 +106,7 @@ pnpm build
 
 ![image](https://user-images.githubusercontent.com/12064746/138114969-9139e4af-b2df-41b2-a5d9-069d8b41903c.png)
 
-
 > 可以基于函数名快速搜索到源码内容
-
-
 
 ### 从零到一实现一遍
 
@@ -121,11 +116,11 @@ pnpm build
 
 为此我把 mini-vue 做成了一套视频课  从零到一带着大家实现一遍 不跳过任何一行代码
 
-当然除了功能上的实现还有编程思想融入到了课程内 
+当然除了功能上的实现还有编程思想融入到了课程内
 
-比如 TDD、小步走、重构手法、TPP 
+比如 TDD、小步走、重构手法、TPP
 
-> TDD 测试驱动开发 影响了我整个技术生涯 可以说在我认识到 TDD 之后 技术才有了质的飞跃 
+> TDD 测试驱动开发 影响了我整个技术生涯 可以说在我认识到 TDD 之后 技术才有了质的飞跃
 
 课程目录如下:
 
@@ -138,7 +133,7 @@ pnpm build
 7. 实现 effect 的 scheduler 功能
 8. 实现 effect 的 stop 功能
 9. 实现 readonly 功能
-10. 实现 isReactive 和 isReadonly 
+10. 实现 isReactive 和 isReadonly
 11. 优化 stop 功能
 12. 实现 reactive 和 readonly 嵌套对象转换功能
 13. 实现 shallowReadonly 功能
@@ -158,7 +153,7 @@ pnpm build
 27. 实现组件 emit 功能
 28. 实现组件 slots 功能
 29. 实现 Fragment 和 Text 类型节点
-30. 实现 getCurrentInstance 
+30. 实现 getCurrentInstance
 31. 实现依赖注入功能 provide/inject
 32. 实现自定义渲染器 custom renderer
 33. 更新 element 流程搭建
@@ -181,7 +176,7 @@ pnpm build
 50. 实现代码生成插值类型
 51. 实现代码生成三种联合类型
 52. 实现编译 template 成 render 函数
-53. 实现 monorepo & 使用 vitest 替换 jest 
+53. 实现 monorepo & 使用 vitest 替换 jest
 
 课程内部包含了 vue3 的三大核心模块：reactivity、runtime 以及 compiler 模块
 
@@ -194,4 +189,4 @@ pnpm build
 
 > 可以直接购买 也可以加我 wx: cuixr1314 来咨询这门课是否合适你
 
-除了课程内容以外 还有专门的社群来答疑大家在学习上的问题 😊   
+除了课程内容以外 还有专门的社群来答疑大家在学习上的问题 😊
