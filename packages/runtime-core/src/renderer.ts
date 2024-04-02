@@ -342,7 +342,7 @@ export function createRenderer(options) {
       // getSequence 返回的是 newIndexToOldIndexMap 的索引值
       // 所以后面我们可以直接遍历索引值来处理，也就是直接使用 toBePatched 即可
       const increasingNewIndexSequence = moved
-        ? getSequence(newIndexToOldIndexMap)
+        ? getSequence(newIndexToOldIndexMap as any)
         : []
       let j = increasingNewIndexSequence.length - 1
 

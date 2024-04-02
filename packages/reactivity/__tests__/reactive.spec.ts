@@ -9,9 +9,9 @@ describe('reactive', () => {
     expect(isReactive(original)).toBe(false)
     // get
     expect(observed.foo).toBe(1)
-    //     // has
+    // has
     expect('foo' in observed).toBe(true)
-    //     // ownKeys
+    // ownKeys
     expect(Object.keys(observed)).toEqual(['foo'])
   })
 
